@@ -1,0 +1,64 @@
+target=float(input("WHAT IS YOUR TARGET CGPA "))
+print("if a sem has not happened or result is not yet published write 0")
+sem1=float(input("ENTER GPA FOR SEM 1 "))
+sem2=float(input("ENTER GPA FOR SEM 2 "))
+sem3=float(input("ENTER GPA FOR SEM 3 "))
+sem4=float(input("ENTER GPA FOR SEM 4 "))
+sem5=float(input("ENTER GPA FOR SEM 5 "))
+sem6=float(input("ENTER GPA FOR SEM 6 "))
+sem7=float(input("ENTER GPA FOR SEM 7 "))
+sem8=float(input("ENTER GPA FOR SEM 8 "))
+
+total1=(sem1+sem2)/2
+total2=(sem1+sem2+sem3)/3
+total3=(sem1+sem2+sem3+sem4)/4
+total4=(sem1+sem2+sem3+sem4+sem5)/5
+total5=(sem1+sem2+sem3+sem4+sem5+sem6)/6
+total6=(sem1+sem2+sem3+sem4+sem5+sem6+sem7)/7
+
+
+
+if target==9:
+    if sem3==0:
+    
+        print("your total cgpa is ", total1)
+        print("you need ",18-total1," in next sem 3 for 9 cgpA")
+    elif sem4==0 and sem3!= 0:
+        print("your total cgpa is ", total2)
+        print("you need ",18-total2," in sem4 for 9 cgpA")
+    elif sem5==0 and sem3!= 0:
+        print("your total cgpa is " ,total3)
+        print("you need ",18-total3," in sem5 for 9 cgpA")
+    elif sem6==0 and sem3!= 0:
+        print("your total cgpa is " ,total4)
+        print("you need ",18-total4," in sem6 for 9 cgpA")
+    elif sem7==0 and sem3!= 0:
+        print("your total cgpa is " ,total5)
+        print("you need ",18-total5," in sem7 for 9 cgpA")
+    elif sem8==0 and sem3!= 0:
+        print("your total cgpa is " ,total6)
+        print("you need ",18-total6," in sem8 for 9 cgpA")
+
+if target==8:
+    if sem3==0:
+    
+        print("your total cgpa is ", total1)
+        print("you need ",16-total1," in next sem 3 for 8 cgpA")
+    elif sem4==0 and sem3!= 0:
+        print("your total cgpa is ", total2)
+        print("you need ",16-total2," in sem4 for 8 cgpA")
+    elif sem5==0 and sem3!= 0:
+        print("your total cgpa is " ,total3)
+        print("you need ",16-total3," in sem5 for 8 cgpA")
+    elif sem6==0 and sem3!= 0:
+        print("your total cgpa is " ,total4)
+        print("you need ",16-total4," in sem6 for 8 cgpA")
+    elif sem7==0 and sem3!= 0:
+        print("your total cgpa is " ,total5)
+        print("you need ",16-total5," in sem7 for 8 cgpA")
+    elif sem8==0 and sem3!= 0:
+        print("your total cgpa is " ,total6)
+        print("you need ",16-total6," in sem8 for 8 cgpA")
+
+
+
